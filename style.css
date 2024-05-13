@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    gap: 15px;
+    
+}
+.container h2:hover{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    cursor: pointer;
+}
+.child{
+    margin: 5px;
+}
+
+.section-1 img{
+    width: 100%;
+}
+.section-2  h2,p{
+    justify-content: justify;
+    width: 30%;
+    margin: 10px  auto;
+    text-align: center;
+    padding-top: 15px;
+}
+.section-2 .parent{
+    display: flex;
+    margin: 0px 200px;
+    justify-content: space-around;
+}
+.section-2 .para{
+    margin: auto;
+    justify-content: justify;
+    width: 33%;
+}
+.section-3 .soldout{
+    background-color: white;
+    color:black;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 10px;
+}
+.section-3 h2, .section-3 p{
+    text-align: center;
+    padding-top: 15px;
+    
+}
+.section-3 .sold{
+    background-color: red;
+    color: white;
+    padding: 2px;
+}
+.outer h2,p{
+text-align: center;
+margin: auto;
+padding: 15px;
+}
+.section-2 .parent-child img{
+width: 80%;
+height:50%;
+}
+.section-3{
+background-color: black;
+color:white
+
+}
+
+.sub-img{
+    display: flex;
+    justify-content: center;
+}
+
+.sub-img .child-img{
+    
+    margin: auto 15px;
+    margin-top: 25px;
+    background-color: white;
+    color: black;
+    margin-bottom: 25px;
+    
+}
+
+.sub-img .child-img img{
+    width: 300px;
+    height: 150px;
+}
+.section-3 .child-img button{
+    background-color: red;
+    color: white;
+    margin-left: 90px;
+    margin-bottom: 20px;
+}
+.form button{
+    
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-left: 300px;
+}
+.section-4  h3{
+text-align: center;
+margin: 25px;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+}
+
+.name input{
+    padding:10px;
+}
+.message input{
+    padding: 10px;
+    width: 350px;
+    margin: 3px 3px;
+}
+
+.section-5 img{
+width: 100%;
+}
+.footer{
+font-size: x-large;
+font-style: normal;
+text-align: center;
+margin-top: 20px;
+}
+.footer :hover{
+color: red;
+}
